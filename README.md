@@ -32,7 +32,7 @@ python3.7
 
 ## Authors
 
-* **Daniel Achim** - *Initial work* - [codecando.x](https://github.com/codecando.x)
+* **Daniel Achim** - *Initial work* - [codecando-x](https://github.com/codecando-x)
 
 ## License
 
