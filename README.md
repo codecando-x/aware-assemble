@@ -32,10 +32,6 @@ Drop it in a folder on every node you would like to gather logs from.
 
 python3.7
 
-## Authors
-
-* **Daniel Achim** - *Initial work* - [codecando-x](https://github.com/codecando-x)
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
