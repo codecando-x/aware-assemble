@@ -22,7 +22,7 @@ class Package():
             self.files.append(file)
 
     def zip(self):
-        files_str = ' '.join([f.filepath for f in self.files])
+        #files_str = ' '.join([f.filepath for f in self.files])
 
         with open(Config().get('unpackaged_files_path'), 'a') as file_list:
             for file in self.files:
@@ -31,7 +31,7 @@ class Package():
         self.filepath = Config().get('dest') + '-'.join([Config().get('node_id'),self.source['name'],str(time.time())])
 
         cmd = "tar -cvzf {} -T {}".format(
-            self.filepath, 
+            self.filepath,
             Config().get('unpackaged_files_path')
         )
 

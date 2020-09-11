@@ -1,6 +1,6 @@
 import os
 
-class File(object):
+class File():
 
     def __init__(self, filepath: str):
         self.filepath = filepath
